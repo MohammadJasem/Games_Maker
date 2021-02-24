@@ -1,0 +1,39 @@
+.pixel-32-container {
+    box-sizing: border-box;
+    background-color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.pixel-32-row {
+    margin: 0;
+    width: 100%;
+    display: -webkit-box;
+    clear: both;
+}
+
+.pixel-32-cell {
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: inset -1px -1px 0 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    transition: background-color 0.05s ease-in;
+    width: 20px;
+    height: 20px;
+}
+
+.pixel-32-row:first-child .pixel-32-cell {
+    box-shadow: inset -1px -1px 0 0 rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.pixel-32-row .pixel-32-cell:first-child {
+    box-shadow: inset -1px -1px 0 0 rgba(0, 0, 0, 0.2),
+    inset 1px 0 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.pixel-32-row:first-child .pixel-32-cell:first-child {
+    box-shadow: inset -1px -1px 0 0 rgba(0, 0, 0, 0.2),
+    inset 1px 1px 0 0 rgba(0, 0, 0, 0.2);
+}

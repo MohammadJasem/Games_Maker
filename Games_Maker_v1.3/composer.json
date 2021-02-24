@@ -1,0 +1,14 @@
+{
+    "name": "vendor/GM_vendor",
+    "description": "Games Maker libraries",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mohammad Jasem",
+            "email": "mohammadjasemmzj1994@gmail.com"
+        }
+    ],
+    "require": {
+    	 "philo/laravel-blade": "3.*"
+    }
+}
